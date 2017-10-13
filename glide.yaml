@@ -1,0 +1,7 @@
+package: github.com/nathanleiby/envforcer
+import:
+- package: gopkg.in/v1/yaml
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
